@@ -2,7 +2,9 @@ Automated Playwright Test Framework
 Install and setup
 
 Install Playwright & Dependencies
-npm init -y npm install -D @playwright/test npx playwright install
+npm init -y 
+npm install -D @playwright/test 
+npx playwright install
 
 Run the Test with HTML Report Generation
 npx playwright test --reporter=html
